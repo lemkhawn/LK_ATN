@@ -1,0 +1,86 @@
+.container-fluid {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+    /* CATEGORIES */
+.categories {
+    flex: 15%;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.categories .Gender {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 16px;
+    margin-top: 12px;
+}
+.categories .Gender a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 4px 10px;
+    cursor: pointer;
+
+}
+.categories .Gender a:hover {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container-fluid h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sneaker-menu {
+    list-style: none;
+    padding: 8px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.sneaker-menu li:hover {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+/* PRODUCTS */
+.product {
+    margin-top: 10px;
+    padding: 2px 16px;
+}
+.product h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: black
+}
+    /* ALL PRODUCT*/
+.product .allpro {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+}
+
+.single_clothing {
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.single_clothing img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.single_clothing h4{
+    text-align: center;
+    font-weight: 600;
+} 
+.single_clothing p{
+    text-align: center;
+    font-weight: 400;
+}
+.single_clothing:hover {
+    transform: scale(1.1);
+}

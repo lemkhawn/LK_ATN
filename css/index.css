@@ -1,0 +1,53 @@
+
+            /* CAROUSEL */
+.carousel {
+    margin-top: 1px;
+}
+
+/* PRODUCT */
+.product {
+    margin-top: 10px;
+    padding: 2px 16px;
+}
+.product section {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: black
+}
+    /* New arrivals */
+.product .new-arrivals {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.product .sales-up {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.single_clothing {
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.single_clothing img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.single_clothing h4{
+    text-align: center;
+    font-weight: 600;
+} 
+.single_clothing p{
+    text-align: center;
+    font-weight: 400;
+}
+.single_clothing:hover {
+    transform: scale(1.1);
+}
+
+    /* Sales up */

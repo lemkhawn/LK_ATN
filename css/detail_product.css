@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    margin-top: 10px;   
+}
+
+.img_products {
+    flex: 40%
+}
+.img_products img {
+    width: 450px;
+    height: auto;
+}
+
+.details {
+    flex: 50%;
+}
+.details .name_ramdom {
+    font-weight: 600;
+}
+.details .prices {
+    font-size: 1.4rem;
+    font-weight: 501;
+    color: #f15e2c;
+}
+.line {
+    border-bottom: 4px dashed rgb(236, 107, 21);
+}
+.details h3 {
+    margin-top: 8px;
+}
+form input[type="number"] {
+    font-size: 16px;
+    width: 126px;
+    margin-bottom: 10px;
+}
+.btn-outline-primary {
+    width: 194px;
+}
+
+.form-select {
+    display: initial;
+    width: 126px;
+}
+
+/* RAMDOM */
+.ramdom {
+    margin-top: 10px;
+    padding: 2px 16px;
+}
+.ramdom section {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+    /*  */
+
+.ramdom .sales-up {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.single_clothing {
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.single_clothing img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.single_clothing h4{
+    text-align: center;
+    font-weight: 600;
+} 
+.single_clothing p{
+    text-align: center;
+    font-weight: 400;
+}
+.single_clothing:hover {
+    transform: scale(1.1);
+}
